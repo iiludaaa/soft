@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FAFAE5;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: #FAFAE5;
+}
+
+a {
+    text-decoration: none;
+    color: #BC8F8F;
+    text-transform: none;
+    transition: 0.25s ease;
+}
+
+ul.list {
+    position: absolute;
+    margin-left: calc((100%-800px)/2);
+    width: 800px;
+    height: 30px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 400px;
+    font: 20px book antiqua;
+}
+
+    ul.list li {
+        margin: 0 0.75em 0 0.75em;
+    }
+
+    ul.list:hover a {
+        color: antiquewhite;
+    }
+
+        ul.list:hover a:hover {
+            color: #BC8F8F;
+            box-shadow: 0 2px 0 0 currentColor;
+        }
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+img.logo {
+    height: 100px;
+    width: 100px;
+    padding-left: 40px;
+    bottom: 88%;
+    position: absolute;
+}
+
+
+#vesh1 {
+    width: 100%;
+    height: 300px;
+    background: #FAFAE5;
+    margin-bottom: 10px;
+    border: 2px solid #BC8F8F;
+}
+
+img.svit {
+    width: 270px;
+    height: 300px;
+    border-right: 2px solid #BC8F8F;
+}
+
+#vesh2 {
+    width: 100%;
+    height: 300px;
+    background: #FAFAE5;
+    margin-bottom: 10px;
+    border: 2px solid #BC8F8F;
+}
+
+img.sym {
+    width: 270px;
+    height: 300px;
+    border-right: 2px solid #BC8F8F;
+}
+
+#text1 {
+    color: #BC8F8F;
+    font: 20px book antiqua;
+    position:absolute;
+    left:300px;
+    top:15%;
+}
+
+#text2 {
+    color: #BC8F8F;
+    font: 20px book antiqua;
+    position: absolute;
+    left: 300px;
+    top:63%;
+}
+
+select {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    font: 17px book antiqua;
+    color: #BC8F8F;
+    background-color: #FAFAE5;
+    border:  #BC8F8F;
+}
+
+.knopka {
+    position:relative;
+    height: 13px;
+    width: 9px;
+    background-color: #FAFAE5;
+    border: 2px solid #BC8F8F;
+    left:3px;
+}
+
+.knopka2 {
+    position: relative;
+    height: 20px;
+    width: 100px;
+    background-color: #FAFAE5;
+    border: 2px solid #BC8F8F;
+    left: 3px;
+}

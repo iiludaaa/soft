@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soft knitting</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style5.css">
+</head>
+<body>
+    <script>
+        function srec(obj) { obj.res.value = ((obj.num1.value * 2500) + (obj.num2.value * 1500))*0.8 }
+        let name = prompt("Введите свое полное имя");
+    </script>
+    <nav>
+        <ul class="list">
+            <li><a href="index2.html">Головные уборы</a></li>
+            <li><a href="index3.html">Свитера</a></li>
+            <li><a href="index4.html">Сумки</a></li>
+            <li><a href="index5.html">Игрушки</a></li>
+        </ul>
+        <div class="logo">
+            <a href="index.html"><img class="logo" src="static/images/logo.png"></a>
+        </div>
+    </nav>
+    <form name="form1">
+        <div id="vesh1">
+            <img class="svit" src="static/images/svitera/s1.png">
+            <div id="text1">
+                Теплый кардиган
+                <p>2500 руб.</p>
+                <p>
+                    <select>
+                        <option>Размер</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                </p>
+                <p class="kolvo">Количество:<input class="knopka" type="text" name="num1" onchange="srec(form1)"></p>
+            </div>
+        </div>
+        <div id="vesh2">
+            <img class="sym" src="static/images/symki/c3.png">
+                <div id="text2">
+                    Милая сумочка с бантиками
+                    <p>1500 руб.</p>
+                    <p>
+                        <select>
+                            <option>Размер</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </p>
+                    <p class="kolvo">Количество:<input class="knopka" type="text" name="num2" onchange="srec(form1)"></p>
+                    <p class="sum">Сумма с учетом промокода:<input class="knopka2" type="text" name="res"> руб.</p>
+                </div>
+        </div>
+    </form>
+</body>
+</html>
